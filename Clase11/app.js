@@ -4,7 +4,7 @@ let hotToys = figuras("Hot Toys");
 let bandai = figuras("Bandai");
 let starWars = figuras("Star Wars");
 
-let unifiedCollectibles = [...hotToys,...bandai,...starWars];
+let unifiedCollectibles = [hotToys,bandai,starWars];
 
 let collectibles ={
     figuras: unifiedCollectibles,
